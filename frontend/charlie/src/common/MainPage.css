@@ -1,0 +1,28 @@
+
+.parrafo {
+    max-width: 1000px;
+    color: #242424;
+    
+}
+
+.boton-inicio {
+    background-color: transparent;
+    border: 4px solid #009640;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.boton-inicio:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+    background-image: url('../assets/charlie-boton.png');
+    color: white;
+  }
+
+.wine-icon {
+    width: 20px;
+}
+
+.buttonText {
+    cursor: pointer;
+}

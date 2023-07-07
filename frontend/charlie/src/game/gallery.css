@@ -1,0 +1,40 @@
+.gallery_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+
+.gallery_wrap .single {
+    width: 200px;
+    cursor: pointer;
+
+}
+
+.gallery_wrap .single img {
+    max-width: 100px;
+    transition: transform .2s;
+}
+
+.gallery_wrap .single img:hover {
+    transform: scale(1.5);
+}
+
+.fullscreen_img {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.fullscreen_img img {
+    width: auto;
+    height: 400px;
+}

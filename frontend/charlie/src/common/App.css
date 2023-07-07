@@ -1,0 +1,59 @@
+#root {
+  background-color: #facf08;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  background: #facf08;
+}
+
+.chardee{
+  margin-top: 30px;
+  
+
+}
+
+.container{
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+
+.foto-gang{
+  width: 300px;
+  position:fixed;
+  bottom:-100px;
+  left: 50%;
+  margin-left: -300px;
+}
+
+.frase{
+  color: #242424;
+  margin-bottom: 40px;
+}
+
+.signUp {
+  margin-bottom: 200px;
+}
+
+.botonesSesion {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.logo {
+  height: 15em;
+  border: 3px solid #009640;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
